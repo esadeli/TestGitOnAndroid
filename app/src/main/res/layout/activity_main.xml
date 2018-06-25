@@ -13,10 +13,11 @@
         android:text="@string/testing_git_on_android"
         android:layout_marginBottom="16dp"/>
 
-    <EditText
+    <Button
+        android:id="@+id/go_to_another_act_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/ini_hanya_testing_saja"/>
+        android:text="@string/go_to_another_activity"/>
 
 
 </LinearLayout>
